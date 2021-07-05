@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		 <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link  style="height: 40px;width: 40px;" href="ch.ico" rel="icon" type="image/x-icon" />
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<title>Jim-jam - Alarm</title>
+	</head>
+<body>
+<style>
+body{
+	background-color: #E1F5E0;;
+}
+	.center {
+ 
+  margin-top: 7% ;
+ width: 500px;
+ height: 300px;
+  border: 3px solid black;
+  padding: 10px;
+}
+</style>
+	<center><img src="https://i.pinimg.com/originals/3f/82/40/3f8240fa1d16d0de6d4e7510b43b37ba.gif" style="width:200px;height: 200px;border: 3px solid black;border-radius: 100%;"></center>
+	<center><div  class="center" style="background-color: #e36c4c; display: block;border-radius: 20px;">
+		<center><h3 class="text-primary" style="color: white; font-size: 40px;">Alarm Clock</h3></center>
+		
+		<center>
+			<input style="height: 60px;border-top-left-radius: 30px; border-bottom-left-radius: 30px; ; padding: 20px; margin-top: 50px;" type="datetime-local" id="alarmTime"/>
+			<button style="height:60px;border-top-right-radius: 30px; border-bottom-right-radius: 30px; background-color: black;" type="button" onclick="setAlarm(this);" id="alarmButton" class="btn btn-success"><span class="glyphicon glyphicon-time"></span> Set Alarm</button>
+		</center>
+		<br />
+		<div id="selectButton" style="display:none;">
+			<center>
+				<button onclick="snoozeAlarm();" class="btn btn-warning"><span class="glyphicon glyphicon-pause"></span> Snooze 5 minutes</button>
+				<button onclick="stopAlarm();" class="btn btn-danger"><span class="glyphicon glyphicon-stop"></span> Stop Alarm</button>
+			</center>
+		</div>
+	
+	<div >
+
+
+</div>
+</div></center>
+<script src="js/script.js"></script>
+</body>
+</html>
