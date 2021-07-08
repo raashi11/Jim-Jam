@@ -403,7 +403,7 @@ function chatbotResponse() {
     botMessage = hi[Math.floor(Math.random()*(hi.length))];;
   }
 
-  if (lastUserMessage === 'name') {
+  if (lastUserMessage === 'name' || lastUserMessage === 'Name') {
     botMessage = 'My name is ' + botName;
   }
   if (lastUserMessage === 'country') {
